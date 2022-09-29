@@ -4,13 +4,10 @@ public class CatRunner
 {
     public static void main (String [] args)
     {
-        Cat cat1 = new Cat("Ginger", 10, 50.4 );
+        Cat cat1 = new Cat("Fluffy", 5, 30.2);
         cat1.introduce();
         cat1.printCatInfo();
 
-        Cat cat2 = new Cat("Java", 9, 20.6);
-        cat2.introduce();
-        cat2.printCatInfo();
 
     }
 }
